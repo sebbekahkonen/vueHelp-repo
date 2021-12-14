@@ -9,7 +9,7 @@
 # Vue cheat sheet
 
 ## **Views map**
-*Here you create components that are not used in every loadout of the page, for example a login view*
+*Here you create components that are not used in every loadout of the page, for example a login view, register view, etc.*
 - 1: You create your component map named **HelloWorld**
 - 2: You create a **HelloWorld.vue** file in the HelloWorld map
 - 3: You create a **routes.js** file in the HelloWorld map
@@ -18,7 +18,7 @@
 #
 ## **Components map**
 *Here you create components that are used in every page, for example a header, a header is loaded almost every time you use the page*
-- Here you only create the **.vue** file without any map
+- Here you only create the **.vue** file without any map above it
 
 #
 ## **Assets map**
@@ -32,9 +32,9 @@
 
 #
 ## **Store**
-- main purpose is to save/get data in store
+- main purpose is to save/get/set data in store
 - commit changes
-- get values
+- call services
 
 ## **Services**
 - main purpose is to call API calls in here
